@@ -1,0 +1,117 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  
+  .p1{
+    color: #fff;
+  }
+
+  #titulo{
+    margin: 0%;
+    padding: 0 ;
+    border: 0rem;
+  }
+
+h3{
+border-radius: 10%;
+background-color: aqua;
+color: rgb(17, 17, 86);
+  }
+  body{
+    background-color: #1a1818;
+
+  }
+
+
+ .color1{
+background-color: #fff;
+  }
+  
+  .container {
+    margin: 40px auto 20px auto; /* arriba, lados automáticos (centrado), abajo */
+    padding: 20px;               /* espacio interno (los costados incluidos) */
+    max-width: 800px;            /* ancho máximo para no ocupar toda la pantalla */
+    background-color: #6b0031;   /* color de fondo (opcional) */
+    border-radius: 15px;         /* esquinas redondeadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra suave opcional */
+    text-align: center;
+  }
+
+  .fondo1{
+background-color: azure;
+
+  }
+
+  .fondo2{
+    background-color: #effeff;
+  }
+
+#contenedor-contadores {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* espacio entre cuadros */
+  z-index: 9999;
+  max-width: 180px; /* opcional */
+}
+
+/* Estilo de cada cuadro */
+.contador-cuadro {
+  background: linear-gradient(135deg, #0063f6, #000000);
+  color: rgb(255, 255, 255);
+  padding: 20px 15px 25px 15px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgb(19, 127, 194);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  user-select: none;
+  position: relative;
+}
+
+/* Fecha arriba */
+.contador-cuadro .fecha {
+  font-size: 2,2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  opacity: 0.85;
+}
+
+/* Número grande */
+.contador-cuadro .numero {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  line-height: 1;
+  text-shadow: 0 2px 6px rgba(160, 241, 30, 0.25);
+}
+
+/* Texto abajo */
+.contador-cuadro .texto {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.85;
+}
+   #cerrar {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: rgb(229, 224, 224);
+      color: rgb(16, 15, 15);
+      font-size: 20px;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none; /* Oculto por defecto */
+      text-decoration: none;
+    }
+
+    
